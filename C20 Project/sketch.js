@@ -3,9 +3,9 @@ function preload() {
   issImg = loadImage("Images/iss.png")
   sleep = loadAnimation("Images/sleep.png");
   
-  gym = loadAnimation("Images/gym1.png", "Images/gym1.png", "Images/gym2.png", "Images/gym2.png"); 
-  eat = loadAnimation("Images/eat1.png", "Images/eat1.png", "Images/eat1.png", "Images/eat2.png", "Images/eat2.png", "Images/eat2.png"); 
-  bath = loadAnimation("Images/bath1.png", "Images/bath1.png", "Images/bath1.png", "Images/bath2.png", "Images/bath2.png", "Images/bath2.png");
+  gym = loadAnimation("Images/gym1.png", "Images/gym2.png"); 
+  eat = loadAnimation("Images/eat1.png", "Images/eat2.png"); 
+  bath = loadAnimation("Images/bath1.png", "Images/bath2.png");
   move = loadAnimation("Images/move.png");
 }
 
